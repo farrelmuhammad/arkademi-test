@@ -4,8 +4,10 @@ import Logo from "../assets/Logo.svg";
 const Navbar = () => {
   return (
     <>
+     
+
       <nav className="bg-white py-2.5 border-blue-500 dark:bg-blue-500 z-20 top-0 left-0">
-        <div class="container flex flex-wrap items-center justify-between mx-auto">
+      <div class="container flex flex-wrap items-center justify-between mx-auto">
           <a href="https://flowbite.com/" class="flex items-center">
             <img
               src={Logo}

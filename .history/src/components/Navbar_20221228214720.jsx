@@ -4,7 +4,7 @@ import Logo from "../assets/Logo.svg";
 const Navbar = () => {
   return (
     <>
-      <nav className="bg-white py-2.5 border-blue-500 dark:bg-blue-500 z-20 top-0 left-0">
+      <nav class="bg-white px-2 sm:px-4 py-2.5 dark:bg-blue-500 fixed w-full z-20 top-0 left-0 border-b border-blue-500 dark:border-blue-500">
         <div class="container flex flex-wrap items-center justify-between mx-auto">
           <a href="https://flowbite.com/" class="flex items-center">
             <img
@@ -64,6 +64,8 @@ const Navbar = () => {
           {/* </div> */}
         </div>
       </nav>
+
+      
       <nav className="bg-white dark:bg-white">
         <div className="max-w-screen-xl px-4 py-3 mx-auto md:px-6">
           <div className="flex items-center">
