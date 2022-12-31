@@ -17,9 +17,7 @@ const Header = () => {
       </div>
 
       <div className="banner my-2 mx-4 md:mx-0">
-        <div className="flex gap-4 w-full items-center justify-center">
-          
-        </div>
+        <div className="flex gap-4 w-full items-center justify-center"></div>
       </div>
     </>
   );
