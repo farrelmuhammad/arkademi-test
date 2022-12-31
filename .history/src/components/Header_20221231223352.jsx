@@ -11,7 +11,7 @@ const Header = () => {
             className="flex-initial w-full max-h-[288px] object-fill"
             alt=""
           />
-          <div className="md:w-1/6 md:h-[224px] bg-white rounded-r rounded-[20px]"></div>
+          <div className="md:w-1/6 md:h-[224px] bg-[#B6D4A8] rounded-r rounded-[20px]"></div>
         </div>
       </div>
     </>
