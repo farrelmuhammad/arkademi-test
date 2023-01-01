@@ -3,7 +3,7 @@ import React from "react";
 const Trending = () => {
   return (
     <>
-      <div class="container max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
+      <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
         <a href="#">
           <img
             class="rounded-t-lg"

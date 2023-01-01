@@ -21,6 +21,8 @@ const Header = () => {
 
       <div className="container my-2 mx-4 md:mx-10">
         <div className="flex gap-4 w-200 items-center justify-center">
+          <div className="md:w-1/6 md:h-[224px] bg-white rounded-l rounded-[20px]"></div>
+
           <img
             src={Caroussel1}
             className="flex-initial w-[391px] h-[100px] object-fill"
@@ -36,6 +38,7 @@ const Header = () => {
             className="flex-initial w-[391px] h-[100px] object-fill"
             alt=""
           />
+          <div className="md:w-1/6 md:h-[224px] bg-white rounded-l rounded-[20px]"></div>
         </div>
       </div>
     </>

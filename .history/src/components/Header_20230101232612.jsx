@@ -1,8 +1,6 @@
 import React from "react";
 import Banner from "../assets/jvfkbv.png";
 import Caroussel1 from "../assets/caroussel1.png";
-import Caroussel2 from "../assets/caroussel2.png";
-import Caroussel3 from "../assets/caroussel3.png";
 
 const Header = () => {
   return (
@@ -27,12 +25,12 @@ const Header = () => {
             alt=""
           />
           <img
-            src={Caroussel2}
+            src={Caroussel1}
             className="flex-initial w-[391px] h-[100px] object-fill"
             alt=""
           />
           <img
-            src={Caroussel3}
+            src={Caroussel1}
             className="flex-initial w-[391px] h-[100px] object-fill"
             alt=""
           />
